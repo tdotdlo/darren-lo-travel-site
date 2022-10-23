@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana";
+  font-size: 1rem;
+}
+
+:is(h1, h2) {
+  color: #335576;
+}
+
+/* Navigation  */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px 65px;
+}
+
+/* Removes underline all links in nav */
+.main-nav a {
+  text-decoration: none;
+}
+
+/* Column-gap adjusts spacing between nav links */
+.main-nav__links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  column-gap: 50px;
+}
+
+.main-nav__links a {
+  color: #000;
+}
