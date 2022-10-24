@@ -14,7 +14,6 @@
 }
 
 /* Hero Content - Content*/
-
 .nav-hero__content > h1 {
   font-size: 2.67rem;
   margin-bottom: 40px;
@@ -70,19 +69,27 @@ main {
   background-repeat: no-repeat;
 }
 
+.destination-container > a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .destination-card > h2 {
   color: #fff;
   padding: 20px;
 }
 
+/* Hawaii Background */
 .destination-card--hawaii {
   background-image: url("../assets/images/hawaii.jpg");
 }
 
+/* Iceland background */
 .destination-card--iceland {
   background-image: url("../assets/images/iceland.jpg");
 }
 
+/* Greece Background */
 .destination-card--greece {
   background-image: url("../assets/images/greece.jpg");
 }
