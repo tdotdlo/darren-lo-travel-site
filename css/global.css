@@ -31,9 +31,11 @@ body {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  column-gap: 50px;
+  column-gap: 30px;
 }
 
 .main-nav__links a {
   color: #000;
 }
+
+/* Footer */
