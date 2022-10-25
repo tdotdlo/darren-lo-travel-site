@@ -1,85 +1,88 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: "Verdana";
-  font-size: 1rem;
+	font-family: 'Verdana';
+	font-size: 1rem;
 }
 
 :is(h1, h2) {
-  color: #335576;
+	color: #335576;
 }
 
 /* Navigation  */
 .main-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff;
-  padding: 20px 65px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	padding: 20px 65px;
 }
 
 /* Removes underline all links in nav */
 .main-nav a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 /* Column-gap adjusts spacing between nav links */
 .main-nav__links {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  column-gap: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	column-gap: 30px;
 }
 
 .main-nav__links a {
-  color: #000;
+	color: #000;
 }
 
 /* Footer */
-footer {
-  background-color: #fefaf5;
-  padding: 200px;
-  color: #335576;
-}
 
 .company-info-container {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px 160px;
-  column-gap: 40px;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 170px;
+	column-gap: 40px;
+	background-color: #fefaf5;
+	color: #335576;
 }
 
 .company-info {
-  width: 15%;
+	width: 20%;
+}
+
+/* Controls the Company Hours */
+.company-info__days {
+	width: 45%;
 }
 
 /* Daily Hours, Hours, contact */
 :is(.company-info__contact, .company-info__hours, .company-info__social-media) {
-  list-style: none;
-  margin-top: 20px;
+	list-style: none;
+	margin-top: 20px;
 }
 
+/* Makes the Store Info and Social Media Cards flex-direction: row */
 :is(.company-info__hours-container, .company-info__social-media) {
-  display: flex;
-  column-gap: 25px;
+	display: flex;
+	column-gap: 25px;
 }
 
 /* company-info__contact a Targets the first li element */
 :is(.company-info__contact, .company-info__hours) > li:first-child {
-  font-size: 12px;
-  color: #db7a4e;
-  margin-bottom: 20px;
-  text-transform: uppercase;
+	font-size: 12px;
+	color: #db7a4e;
+	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
 ul.company-info__social-media img {
-  min-width: 18px;
-  max-height: 30px;
+	min-width: 18px;
+	max-height: 30px;
 }
 
 .company-info:last-child > h2 {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
