@@ -38,6 +38,11 @@ body {
   color: #000;
 }
 
+.main-nav--active-page {
+  border-bottom: 3px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
 /* Footer */
 
 .company-info-container {
