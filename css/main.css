@@ -1,97 +1,101 @@
 /* Hero Section */
 .nav-hero {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #fefaf5;
-  padding: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fefaf5;
+	padding: 40px;
 }
 
 /* Hero Content Container */
 .nav-hero__content {
-  min-width: 35%;
-  max-width: 50%;
+	min-width: 35%;
+	max-width: 50%;
 }
 
 /* Hero Content - Content*/
 .nav-hero__content > h1 {
-  font-size: 2.67rem;
-  margin-bottom: 40px;
+	font-size: 2.625rem;
+	margin-bottom: 40px;
 }
 
 .nav-hero__content p {
-  color: #335576;
-  margin-bottom: 40px;
+	color: #335576;
+	margin-bottom: 40px;
 }
 
 /* Hero-Image */
 .nav-hero__image {
-  max-width: 35%;
-  min-width: 25%;
+	max-width: 35%;
+	min-width: 25%;
 }
 
 /* Hero - Get Started Button */
 .nav-hero__button {
-  background-color: #db7a4e;
-  font-size: 18px;
-  color: #fff;
-  padding: 10px 40px;
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
+	background-color: #db7a4e;
+	font-size: 18px;
+	color: #fff;
+	padding: 10px 40px;
+	border-radius: 30px;
+	border: none;
+	cursor: pointer;
 }
 
 /* Recommendations */
 main {
-  padding: 40px 60px;
+	padding: 40px 60px;
 }
 
 /* Destination Card */
 .destination-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 20px 125px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	padding: 0px 100px;
+	column-gap: 30px;
 }
 
 .destination-card {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  width: 21vw;
-  height: 55vh;
-  /* Border */
-  /* width / style / color */
-  border: 1px solid rgba(0 0 0 0.5);
-  /* Box-Shadow */
-  /* x-axis / y-axis - blur - radius - color / opacity */
-  box-shadow: 0px 4px 4px rgba(0 0 0 0.2);
-  border-radius: 5px;
-  background-size: cover;
-  background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 22vw;
+	height: 55vh;
+	/* Border */
+	/* width / style / color */
+	border: 1px solid rgba(0 0 0 / 0.5);
+	/* Box-Shadow */
+	/* x-axis / y-axis - blur - radius - color / opacity */
+	box-shadow: 0px 4px 4px rgba(0 0 0 / 0.2);
+	border-radius: 5px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .destination-container > a {
-  text-decoration: none;
-  cursor: pointer;
+	text-decoration: none;
+	cursor: pointer;
 }
 
+/* Padding around  */
 .destination-card > h2 {
-  color: #fff;
-  padding: 20px;
+	color: #fff;
+	padding: 20px;
 }
 
 /* Hawaii Background */
 .destination-card--hawaii {
-  background-image: url("../assets/images/hawaii.jpg");
+	background-image: url('../assets/images/hawaii.jpg');
 }
 
 /* Iceland background */
 .destination-card--iceland {
-  background-image: url("../assets/images/iceland.jpg");
+	background-image: url('../assets/images/iceland.jpg');
 }
 
 /* Greece Background */
 .destination-card--greece {
-  background-image: url("../assets/images/greece.jpg");
+	background-image: url('../assets/images/greece.jpg');
 }
