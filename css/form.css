@@ -1,0 +1,17 @@
+.contact-us {
+	padding: 60px 60px;
+	background-position: 20% 32%;
+	background-size: cover;
+	background-image: url('../assets/images/hk.jpg');
+}
+
+.contact-us > h1 {
+	font-size: 4.5rem;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.contact-us__form {
+	display: flex;
+	flex-direction: column;
+}

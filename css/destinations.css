@@ -1,46 +1,49 @@
 .destination {
-	position: relative;
-	padding: 60px 60px;
+	padding: 60px;
 	background-position: 20% 52%;
 	background-size: cover;
 }
 
+.test {
+	margin: 60px;
+}
+
 .destination > h1 {
-	/* position: absolute; */
 	font-size: 4.5rem;
-	color: white;
+	color: #fff;
 	margin-bottom: 40px;
 }
 
 /* Destination Backgrounds */
 /* Hawaii */
 .destination--hawaii {
-	background-image: url('../assets/images/hawaii.jpg');
+	background-image: url("../assets/images/hawaii.jpg");
 }
 
 /* Iceland */
 .destination--iceland {
-	background-image: url('../assets/images/iceland.jpg');
+	background-image: url("../assets/images/iceland.jpg");
 }
 
 /* Greece */
 .destination--greece {
-	background-image: url('../assets/images/greece.jpg');
+	background-image: url("../assets/images/greece.jpg");
 }
 
-/* Itinerary Cards */
+/* Itinerary Cards Container*/
 .destination-container {
 	display: flex;
 	justify-content: center;
-	padding: 0px 100px;
-	margin-bottom: 50px;
+	margin: auto;
 	column-gap: 40px;
 }
 
+/* Itinerary Cards   */
 .destination__card {
-	width: 27%;
-	background-color: white;
+	width: 23%;
+	background-color: #fff;
 	text-align: center;
+	margin-bottom: 60px;
 	padding: 10px;
 	border-radius: 5px;
 }

@@ -4,13 +4,14 @@
 	justify-content: space-around;
 	align-items: center;
 	background-color: #fefaf5;
-	padding: 40px;
+	padding: 60px;
 }
 
 /* Hero Content Container */
 .nav-hero__content {
 	min-width: 35%;
 	max-width: 50%;
+	margin-bottom: 20px;
 }
 
 /* Hero Content - Content*/
@@ -41,9 +42,17 @@
 	cursor: pointer;
 }
 
+.nav-hero__button a {
+	text-decoration: none;
+}
+
 /* Recommendations */
 main {
 	padding: 40px 60px;
+}
+
+main > h2 {
+	margin-bottom: 20px;
 }
 
 /* Destination Card */
@@ -51,11 +60,16 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20px;
-	padding: 0px 100px;
+	margin: auto;
 	column-gap: 30px;
 }
 
+.destination-container > a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Destination Card */
 .destination-card {
 	display: flex;
 	justify-content: flex-end;
@@ -72,17 +86,13 @@ main {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	margin-bottom: 60px;
 }
 
-.destination-container > a {
-	text-decoration: none;
-	cursor: pointer;
-}
-
-/* Padding around  */
+/* Destination Card Heading */
 .destination-card > h2 {
 	color: #fff;
-	padding: 20px;
+	margin: 20px;
 }
 
 /* Hawaii Background */

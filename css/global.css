@@ -44,12 +44,16 @@ body {
 }
 
 /* Footer */
-.company-info-container {
+footer {
 	background-color: #fefaf5;
+}
+
+.company-info-container {
 	display: flex;
 	justify-content: space-around;
-	padding: 40px 170px 60px;
-	column-gap: 40px;
+	width: 75vw;
+	margin: auto;
+	padding: 40px 0px 60px;
 	color: #335576;
 }
 
