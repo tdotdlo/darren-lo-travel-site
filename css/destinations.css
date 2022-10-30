@@ -1,17 +1,13 @@
 .destination {
-	padding: 60px;
+	padding: 6rem;
 	background-position: 20% 52%;
 	background-size: cover;
 }
 
-.test {
-	margin: 60px;
-}
-
 .destination > h1 {
-	font-size: 4.5rem;
+	font-size: 6rem;
 	color: #fff;
-	margin-bottom: 40px;
+	margin-bottom: 4rem;
 }
 
 /* Destination Backgrounds */
@@ -35,7 +31,7 @@
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	column-gap: 40px;
+	column-gap: 4rem;
 }
 
 /* Itinerary Cards   */
@@ -43,23 +39,23 @@
 	width: 23%;
 	background-color: #fff;
 	text-align: center;
-	margin-bottom: 60px;
-	padding: 10px;
-	border-radius: 5px;
+	margin-bottom: 6rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
 }
 
 .destination__card > p {
 	font-weight: 700;
-	border-bottom: 3px solid #000;
+	border-bottom: 0.3rem solid #000;
 }
 
 .destination__card-activity > li {
 	background-color: #fefaf5;
 	list-style: none;
-	padding: 10px 20px;
-	margin-top: 20px;
+	padding: 1rem 2rem;
+	margin-top: 2rem;
 }
 
 .destination__card-activity > li:last-child {
-	margin-bottom: 80px;
+	margin-bottom: 8rem;
 }
