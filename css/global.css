@@ -12,7 +12,7 @@ body {
   font-family: "Verdana";
   font-size: 1.6rem;
 }
-
+/* h1, h2, h3 color */
 :is(h1, h2),
 .main-nav > h3 > a {
   color: #335576;
@@ -43,10 +43,25 @@ body {
 .main-nav__links a {
   color: #000;
 }
-
+/* Active Page Modifier */
 .main-nav--active-page {
   border-bottom: 0.5rem solid #db7a4e;
   padding-bottom: 1rem;
+}
+
+/* Destination and Contact Form */
+:is(.destination, .contact-us) {
+  padding: 6rem;
+  background-position: 20% 52%;
+  background-size: cover;
+}
+
+/* Destination and Contact Form Heading */
+:is(.destination, .contact-us) > h1 {
+  font-size: 6rem;
+  color: #fff;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
 }
 
 /* Footer */
