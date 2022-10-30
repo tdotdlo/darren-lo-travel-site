@@ -21,3 +21,11 @@ I found it very beneficial to predetermine layout. I will probably be attacking 
 ### :focus
 
 - used to target the input fields on the contact form.
+
+# Diving Deeper
+
+### Contact Form
+
+- Added a basic form linked to the 'Get Started' button. Will revise at a later date to refactor and make a better form.
+
+- Keeping to DRY concept, added the background styling for destinations and contact-us into global.css file.
