@@ -1,102 +1,104 @@
 :root {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: "Verdana";
-	font-size: 1.6rem;
+  font-family: "Verdana";
+  font-size: 1.6rem;
 }
 
-:is(h1, h2) {
-	color: #335576;
+:is(h1, h2),
+.main-nav > h3 > a {
+  color: #335576;
 }
 
 /* Navigation  */
 .main-nav {
-	display: flex;
-	justify-content: space-between;
-	background-color: #fff;
-	padding: 2rem 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0rem 8rem;
 }
 
 /* Removes underline all links in nav */
 .main-nav a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* Column-gap adjusts spacing between nav links */
 .main-nav__links {
-	display: flex;
-	justify-content: space-evenly;
-	list-style-type: none;
-	column-gap: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  column-gap: 3rem;
 }
 
 .main-nav__links a {
-	color: #000;
+  color: #000;
 }
 
 .main-nav--active-page {
-	border-bottom: 0.3rem solid #db7a4e;
-	padding-bottom: 1rem;
+  border-bottom: 0.5rem solid #db7a4e;
+  padding-bottom: 1rem;
 }
 
 /* Footer */
 footer {
-	background-color: #fefaf5;
+  background-color: #fefaf5;
 }
 
 .company-info-container {
-	display: flex;
-	justify-content: space-around;
-	width: 75vw;
-	margin: auto;
-	padding: 4rem 0px 6rem;
-	color: #335576;
+  display: flex;
+  justify-content: space-around;
+  width: 75vw;
+  margin: auto;
+  padding: 4rem 0px 6rem;
+  color: #335576;
 }
 
 /* Company Info & Social Media - Width */
 .company-info:first-child {
-	flex-basis: 18%;
+  flex-basis: 18%;
 }
 
 /* Company Hours - Width */
 .company-info__days {
-	flex-basis: 47%;
+  flex-basis: 47%;
 }
 
 /* Daily Hours, Hours, contact */
 :is(.company-info__contact, .company-info__hours, .company-info__social-media) {
-	list-style: none;
-	margin-top: 2rem;
+  list-style: none;
+  margin-top: 2rem;
 }
 
 /* Makes the Store Info and Social Media Cards flex-direction: row */
 :is(.company-info__hours-container, .company-info__social-media) {
-	display: flex;
-	column-gap: 2.5rem;
+  display: flex;
+  column-gap: 2.5rem;
 }
 
 /* company-info__contact a Targets the first li element */
 :is(.company-info__contact, .company-info__hours) > li:first-child {
-	font-size: 1.2rem;
-	color: #db7a4e;
-	margin-bottom: 2rem;
-	text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #db7a4e;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 /* Social Media Images */
 ul.company-info__social-media img {
-	min-width: 1.8rem;
-	max-height: 3rem;
+  min-width: 1.8rem;
+  max-height: 3rem;
 }
 
 .company-info:last-child > h2 {
-	margin-bottom: 4.5rem;
+  margin-bottom: 4.5rem;
 }
